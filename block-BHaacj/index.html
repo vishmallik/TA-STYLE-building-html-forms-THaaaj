@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/stylesheet/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6ff1e80dcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Journey</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex topnav">
+        <div class="flex">
+          <img src="assets/logo.png" alt="logo" />
+          <h1>Journey</h1>
+        </div>
+        <nav>
+          <ul class="flex">
+            <li><a class="home" href="#"> Home </a></li>
+            <li><a href="#"> Top Destinations </a></li>
+            <li><a href="#"> Recommended Places </a></li>
+            <li><a href="#"> Contact Us </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <h2>LETS'S BEGIN</h2>
+          <img src="assets/dots-3.png" alt="dots" />
+          <h4>We assist you to choose the best.</h4>
+          <i class="fa-solid fa-chevron-down"></i>
+          <form action="index.html" class="flex flex-col form1" method="post">
+            <fieldset class="flex">
+              <div class="input-wrapper flex-60">
+                <label for="dest"> Choose Your Destination </label>
+                <input
+                  type="text"
+                  id="dest"
+                  placeholder="Type your destination..."
+                />
+              </div>
+              <div class="input-wrapper flex-30">
+                <label for="rooms"> How many rooms?</label>
+                <select name="rooms" id="rooms">
+                  <option value="1 room" selected>1 Room</option>
+                  <option value="2 room">2 Room</option>
+                  <option value="3 room">3 Room</option>
+                </select>
+              </div>
+              <div class="input-wrapper flex-12">
+                <label for="adult">Adult</label>
+                <select name="adults" id="adult">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+              <div class="input-wrapper flex-12">
+                <label for="childrens">Children</label>
+                <select name="childrens" id="childrens">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </fieldset>
+            <fieldset class="flex">
+              <div class="input-wrapper flex-20">
+                <label for="Checkin">Check In date </label>
+                <input type="datetime" placeholder="Check In" id="Checkin" />
+              </div>
+
+              <div class="input-wrapper flex-20">
+                <label for="Checkout">Check Out date</label>
+                <input type="datetime" placeholder="Check Out" id="Checkout" />
+              </div>
+
+              <a href="#" class="flex-54"
+                ><button class="primary-btn">CHECK AVAILABILITY</button></a
+              >
+            </fieldset>
+          </form>
+        </section>
+        <section class="s2 flex flex-col">
+          <h3>YOUR <strong>JOURNEY</strong> IS OUR PRIORITY</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+            cumque ratione numquam, repellendus, dolores vel natus et ab,
+            inventore rem cum voluptatem saepe esse
+          </p>
+          <a href="#"><button>CONTINUE EXPLORE</button></a>
+        </section>
+        <section class="s3">
+          <article class="flex img-wrapper-left">
+            <img src="assets/tm-img-01.jpg" alt="img1" />
+            <div class="card-left flex">
+              <div class="icon-left flex">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+              </div>
+              <div class="icon-left flex">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+              </div>
+              <div class="card-text-left">
+                <h5>Europe's most visited places</h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                  quae illo error fuga beatae id earum cum vitae? Nobis error
+                  facere ipsum nihil. Dolor dolorum sed voluptatum hic modi
+                  corrupti, eum culpa quisquam magni consectetur
+                </p>
+                <a href="#"><button class="btn">CONTINUE READING</button></a>
+              </div>
+            </div>
+          </article>
+          <article class="flex img-wrapper-right">
+            <img src="assets/tm-img-02.jpg" alt="img2" />
+            <div class="card-right flex">
+              <div class="card-text-left card-text-right">
+                <h5>Asia's most popular places</h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                  quae illo error fuga beatae id earum cum vitae? Nobis error
+                  facere ipsum nihil. Dolor dolorum sed voluptatum hic modi
+                  corrupti, eum culpa quisquam magni consectetur
+                </p>
+                <a href="#"
+                  ><button class="btn btn-right">CONTINUE READING</button></a
+                >
+              </div>
+              <div class="icon-left icon-right flex">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+              </div>
+              <div class="icon-left icon-right flex">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+              </div>
+            </div>
+          </article>
+          <article class="flex img-wrapper-left">
+            <img src="assets/tm-img-03.jpg" alt="img3" />
+            <div class="card-left flex">
+              <div class="icon-left flex">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+              </div>
+              <div class="icon-left flex">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+              </div>
+              <div class="card-text-left">
+                <h5>America's most famous places</h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                  quae illo error fuga beatae id earum cum vitae? Nobis error
+                  facere ipsum nihil. Dolor dolorum sed voluptatum hic modi
+                  corrupti, eum culpa quisquam magni consectetur
+                </p>
+                <a href="#"><button class="btn">CONTINUE READING</button></a>
+              </div>
+            </div>
+          </article>
+          <article class="world flex">
+            <div class="world-container">
+              <figure>
+                <img src="assets/north-america.png" alt="" />
+              </figure>
+              <figcaption>NORTH AMERICA</figcaption>
+            </div>
+            <div class="world-container">
+              <figure>
+                <img src="assets/south-america.png" alt="" />
+              </figure>
+              <figcaption>SOUTH AMERICA</figcaption>
+            </div>
+
+            <div class="world-container">
+              <figure>
+                <img src="assets/europe.png" alt="" />
+              </figure>
+              <figcaption>EUROPE</figcaption>
+            </div>
+
+            <div class="world-container selected">
+              <figure>
+                <img src="assets/asia.png" alt="" />
+              </figure>
+              <figcaption>ASIA</figcaption>
+            </div>
+            <div class="world-container">
+              <figure>
+                <img src="assets/africa.png" alt="" />
+              </figure>
+              <figcaption>AFRICA</figcaption>
+            </div>
+            <div class="world-container">
+              <figure>
+                <img src="assets/australia.png" alt="" />
+              </figure>
+              <figcaption>AUSTRALIA</figcaption>
+            </div>
+
+            <div class="world-container">
+              <figure>
+                <img src="assets/antartica.png" alt="" />
+              </figure>
+              <figcaption>ANTARTICA</figcaption>
+            </div>
+          </article>
+        </section>
+        <section class="s4 flex flex-col">
+          <div class="flex places">
+            <img src="assets/tm-img-04.jpg" alt="img4" />
+            <div class="places-text">
+              <h6>ASIA RESORT HOTEL</h6>
+              <p class="location">Singapore</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+                ea eveniet nam aperiam ipsam ipsa tempora quas suscipit.
+                Asperiores eos, mollitia...
+              </p>
+            </div>
+
+            <img src="assets/button-curve.png" alt="" />
+            <div class="price">
+              <p>$440</p>
+              <a href="#">CONTINUE READING</a>
+            </div>
+          </div>
+          <div class="flex places">
+            <img src="assets/tm-img-05.jpg" alt="img5" />
+            <div class="places-text">
+              <h6>NULLAM ESIT IT EASR NGEL</h6>
+              <p class="location">Yangon, Myanmar</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+                ea eveniet nam aperiam ipsam ipsa tempora quas suscipit.
+                Asperiores eos, mollitia...
+              </p>
+            </div>
+
+            <img src="assets/button-curve.png" alt="" />
+            <div class="price">
+              <p>$450</p>
+              <a href="#">CONTINUE READING</a>
+            </div>
+          </div>
+          <div class="flex places">
+            <img src="assets/tm-img-06.jpg" alt="img6" />
+            <div class="places-text">
+              <h6>PRION INTERD ULLUMCOPPER</h6>
+              <p class="location">Bangkok,Thailand</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+                ea eveniet nam aperiam ipsam ipsa tempora quas suscipit.
+                Asperiores eos, mollitia...
+              </p>
+            </div>
+
+            <img src="assets/button-curve.png" alt="" />
+            <div class="price">
+              <p>$460</p>
+              <a href="#">CONTINUE READING</a>
+            </div>
+          </div>
+          <div class="flex places">
+            <img src="assets/tm-img-07.jpg" alt="img7" />
+            <div class="places-text">
+              <h6>Lorem ipsum dolor sit.</h6>
+              <p class="location">Vientein, Laos</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+                ea eveniet nam aperiam ipsam ipsa tempora quas suscipit.
+                Asperiores eos, mollitia...
+              </p>
+            </div>
+            <img src="assets/button-curve.png" alt="" />
+            <div class="price">
+              <p>$470</p>
+              <a href="#">CONTINUE READING</a>
+            </div>
+          </div>
+          <a href="#"><button>SHOW MORE PLACES</button></a>
+        </section>
+        <section class="s5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8813456840976!2d-122.46984735750732!3d37.76938028234464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085876857369c5b%3A0xe894109bfda58342!2sSan%20Francisco%20Botanical%20Garden!5e0!3m2!1sen!2sin!4v1654403782450!5m2!1sen!2sin"
+            width="100%"
+            height="580"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <form class="query-form" action="index.html">
+            <div class="flex">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+
+            <input type="text" placeholder="Subject" />
+            <textarea
+              name="message"
+              cols="58"
+              rows="6"
+              placeholder="Message"
+            ></textarea>
+            <a href="#"
+              ><button class="primary-btn">SEND MESSAGE NOW</button></a
+            >
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-body">
+        <small
+          >Copyright &copy; 2022 Visawjeet Mallik. Designed by Visawjeet
+          Mallik</small
+        >
+      </div>
+    </footer>
+  </body>
+</html>
